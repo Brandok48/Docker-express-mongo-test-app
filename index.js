@@ -31,6 +31,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.get('/', (req, res) =>{
     res.render("index");   
 })
+app.get('/home', (req, res) =>{
+    res.render("home");   
+})
 
 
 //Post route
